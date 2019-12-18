@@ -6,6 +6,7 @@
     </ul>
   </div>
 </template>
+
 <script>
 import listCountry from './listCountry.vue';
 export default {
@@ -14,8 +15,8 @@ export default {
   components:{
     "list-country": listCountry
   }
-
 }
 </script>
+
 <style lang="css" scoped>
 </style>
