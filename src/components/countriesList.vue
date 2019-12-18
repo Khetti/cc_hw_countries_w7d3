@@ -1,5 +1,9 @@
 <template>
   <div>
+    <!-- <select>
+      <list-country v-for="(country, index) in countries" :country="country"
+        :key="index"></list-country>
+    </select> -->
     <ul>
       <list-country v-for="(country, index) in countries" :country="country"
        :key="index"></list-country>
