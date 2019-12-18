@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Countries</h1>
+  <h1>Countries</h1>
     <div class="main-container">
       <countries-list :countries='countries'></countries-list>
       <country-details :country='selectedCountry'></country-details>
@@ -9,9 +9,9 @@
 </template>
 
 <script>
-  import countriesList from './components/countriesList.vue';
+  import CountriesList from './components/CountriesList.vue';
   import { eventBus } from './main.js';
-  import countryDetails from './components/countryDetails.vue';
+  import CountryDetail from './components/CountryDetail.vue';
 
   export default {
     name: 'app',
@@ -33,8 +33,8 @@
       })
     },
     components: {
-      "countries-list": countriesList,
-      "country-details": countryDetails
+      "countries-list": CountriesList,
+      "country-details": CountryDetail
 
     }
   }
@@ -43,6 +43,6 @@
 <style>
 .main-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 </style>
