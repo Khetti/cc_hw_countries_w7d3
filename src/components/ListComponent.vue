@@ -1,5 +1,4 @@
 <template>
-  <!-- <option> {{ country.name }} </option> -->
   <li v-on:click="handleClick"> {{country.name}} </li>
 </template>
 
